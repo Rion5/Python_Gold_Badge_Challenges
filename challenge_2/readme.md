@@ -22,6 +22,7 @@ Choose a menu item:
     3. Enter a new claim
 
 For #1, a claims agent could see all items in the queue listed out like this:
+
 | ClaimID | Type | Description | Amount | Date of Accident | Date of Claim | IsValid |
 |---------| ---- | ----------- | ------ | ---------------- | --------------| ------- |
 | 1       | Car  |  Accident   | $400.00| 04/25/18         | 05/10/18      | True    |
