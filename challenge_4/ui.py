@@ -45,10 +45,10 @@ class UI:
                 user_input = input('Select an option: ')
                 if user_input == "1":
                     access_code_to_remove = input('Which door access would you like to remove?: ')
-                    self.badge_repo.remove_door(access_code_to_remove)
+                    self.badge_repo.remove_door_from_badge(access_code_to_remove)
                 elif user_input == "2":
                     access_code_to_add = input('Which door access would you like to add?: ')
-                    self.badge_repo.add_door(badge.badge_number, access_code_to_add)
+                    self.badge_repo.add_door_to_badge(badge.badge_number, access_code_to_add)
                 else:
                     print('Error: Invalid Option')
                     self.edit_badge_prompt()

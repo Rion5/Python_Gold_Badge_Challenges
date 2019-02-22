@@ -9,7 +9,7 @@ class BadgeRepository:
         self.badges_list.append(badge)
 
     # Remove Door from List
-    def remove_door(self, access_code_to_remove):
+    def remove_door_from_badge(self, access_code_to_remove):
         for i, badge in enumerate(self.badges_list):
             for j, access_code in enumerate(badge.list_of_door_names):
                 if access_code == access_code_to_remove:
@@ -18,12 +18,11 @@ class BadgeRepository:
                     self.badges_list[i].list_of_door_names.remove(self.badges_list[i].list_of_door_names[j])
 
     # Append Door to list
-    def add_door(self, badge_number, new_access_code):
+    def add_door_to_badge(self, badge_number, new_access_code):
         # Append the access code to the correct badge
         for i, badge in enumerate(self.badges_list):
             if badge.badge_number == badge_number:
                 self.badges_list[i].list_of_door_names.append(new_access_code)
-                print('adding')
                 return
     
     # View All
