@@ -19,11 +19,12 @@ details about individual customers.
 
 List View
 In addition to CRUD options, an administrator needs to show all customers order in a list like this:
+
 | FirstName | LastName | Type | Email |
 |-----------| -------- | ---- | ----- |
 | Jake      | Smith    | Past | It's been a long time since we've heard from you, we want you back  |
-| Jane     | Doe       | Current | Thank you for your work with us. We appreciate your loyalty. Here's a coupon. |
-| David     | Jones       | Potential | We currently have the lowest rates on Helicopter Insurance! |
+| Jane      | Doe      | Current | Thank you for your work with us. We appreciate your loyalty. Here's a coupon. |
+| David     | Jones    | Potential | We currently have the lowest rates on Helicopter Insurance! |
 
 Be sure to Unit Test your Repository methods.
 
